@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 // esto es para probar el gitbranch 23
-=======
 // esto es para probar el gitbranch2
->>>>>>> my_second_branch
 
 function calculadora(operacion, operador1, operador2) {
     if (operacion == "sum") {
@@ -44,5 +41,3 @@ function division(operando1, operando2) {
     return operacion;
 }
 
-
-module.exports={suma,resta,multiplicacion,division};
