@@ -1,0 +1,11 @@
+{
+  "name": "proyectosjavascript",
+  "version": "1.0.0",
+  "description": "Proyecto 1 curso Codenotch",
+  "main": "index.js",
+  "scripts": {
+    "test": "run.js"
+  },
+  "author": "Juan Pablo Carpio",
+  "license": "ISC"
+}

@@ -1,0 +1,33 @@
+import Persona from "./persona.js";
+
+var persona1 = new Persona(180,70,"M",1999,["comer","videojugar","dormir","leer"]);
+
+// console.log(persona1.altura);
+// console.log(persona1.peso);
+// console.log(persona1.genero);
+// console.log(persona1.anyoNacimiento);
+// console.log(persona1.edad);
+// console.log(persona1.aficciones);
+// console.log(persona1.Imc);
+// console.log(persona1.Edad);
+// console.log(persona1.Altura);
+// console.log(persona1.Peso);
+// console.log(persona1.Genero);
+// console.log(persona1.AnyoNacimiento);
+// console.log(persona1.Aficciones);
+// persona1.setEdad(23);
+// console.log(persona1.Edad);
+// persona1.setAltura(179);
+// console.log(persona1.Altura);
+// persona1.setPeso(80);
+// console.log(persona1.Peso);
+// persona1.setGenero("F");
+// console.log(persona1.Genero);
+// persona1.setAnyoNacimiento(2001);
+// console.log(persona1.AnyoNacimiento);
+// persona1.setAficciones(["comer","beber","dormir","dormir mas"]);
+// console.log(persona1.Aficciones);
+// console.log(persona1.calcularImc(persona1.peso,persona1.altura));
+// console.log(persona1.calcEdad(persona1.anyoNacimiento));
+console.log(persona1.mostrarTodos(persona1.altura,persona1.peso,persona1.genero,persona1.anyoNacimiento,persona1.edad,persona1.Aficciones));
+// console.log(persona1.mostrarAficciones());
